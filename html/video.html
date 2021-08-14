@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>我的视频</title>
+</head>
+
+<body>
+    <a href="myWebsite.html">首页</a></br>
+    <button onclick="palyvideo()">播放</button>
+    <button onclick="pausevideo()">暂停</button></br>
+
+    <video id="video_1" src="../videos/video_1.mp4" width="400px"></video>
+    <video id="video_2" src="../videos/video_2.mp4" width="400px"></video>
+    <video id="video_3" src="../videos/video_3.mp4" width="400px"></video>
+
+    <script>
+        var operVideo1 = document.getElementById("video_1");
+        var operVideo2 = document.getElementById("video_2");
+        var operVideo3 = document.getElementById("video_3");
+
+        function palyvideo() {
+            operVideo1.play();
+            operVideo2.play();
+            operVideo3.play();
+        }
+
+        function pausevideo() {
+            operVideo1.pause();
+            operVideo2.pause();
+            operVideo3.pause();
+        }
+
+    </script>
+</body>
+</html>

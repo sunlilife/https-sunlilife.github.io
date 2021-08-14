@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表格的制作练习 -->
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <table width="500" >
+        <!-- 第一行tr。tr是行的意思  td是列的意思 -->
+        <tr>
+            <td>性别：</td>
+            <td>
+                <input type="radio" name="1" id="nan"><label for="nan"><img src="../imgs/男.png">男</label>
+                <input type="radio" name="1" id="nv"><label for="nv"><img src="../imgs/女.png">女</label>
+            </td>
+        </tr>
+        <!-- 第二个tr。tr是行的意思 。select下拉列表表单构件。由select和option构成有三个下拉列表-->
+        <tr>
+            <td>生日；</td>
+            <td><select>
+                    <option>--请选择年份--</option>
+                    <option>2001</option>
+                    <option>2003</option>
+                    <option>2001</option>
+                </select>
+                <select>
+                    <option>--请选择月份--</option>
+                    <option>二月</option>
+                    <option>三月</option>
+                    <option>一月</option>
+                </select>
+                <select>
+                    <option>-请选择日期--</option>
+                    <option>01</option>
+                    <option>03</option>
+                    <option>04</option>
+                </select>
+            </td>
+        </tr>
+        <!-- 第三行内容，第三个tr.文本框中。value可以默认显示文字 -->
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text" value="beijing"></input></td>
+        </tr>
+        <!--第四行内容，第四个tr.tr行的意思td表示有几列的意思 -->
+        <!-- 单选按钮和复选框处于选定状态要想使之出现默认选项，要用到checked="checked" 下面例子就是让未婚呈现默认状态-->
+        <tr>
+            <td>婚姻状况</td>
+            <td><input type="radio" name="marry" checked="checked" id="weihun"><label for="weihun">未婚</label>
+                <input type="radio" name="marry" id="yihun"><label for="yihun">已婚</label>
+                <input type="radio" name="marry" id="lihun"><label for="lihun">离婚</label>
+            </td>
+        </tr>
+        <!-- 第五行tr -value可以默认显示文字 -->
+        <tr>
+            <td>学历:</td>
+            <td><input type="text" value="幼儿园"></td>
+        </tr>
+        <!-- 第六行复选框checkbox的应用 -->
+        <tr>
+            <td>喜欢的类型</td>
+            <td><input type="checkbox">妩媚的
+                <input type="checkbox">可爱的
+                <input type="checkbox">都喜欢
+            </td>
+        </tr>
+        <!-- 第7行文本域的使用 -->
+        <tr>
+            <td>自我介绍</td>
+            <td><textarea>个人简介</textarea></td>
+        </tr>
+        <!-- 第8行 有两列第一列为空白。第二列提交按钮submit的使用value默认显示文字 -->
+        <tr>
+            <td></td>
+            <td><input type="submit" value="免费注册"></td>
+        </tr>
+        <!-- 第9行两列第一列为空白，第二列是复选框的选定状态 -->
+        <tr>
+            <td></td>
+            <td><input type="checkbox" checked="checked">我同意注册会员条款加入标准</td>
+        </tr>
+        <!-- 第十行空超链接 -->
+        <tr>
+            <td></td>
+            <td><a href="#">我是会员</a></td>
+        </tr>
+        <!-- 第11行无序列表ul使用 -->
+        <tr>
+            <td></td>
+            <td><h5>我承诺</h5>
+                <ul>
+                    <li>永远18岁</li>
+                    <li>抱着严肃的态度</li>
+                    <li>真诚寻找另一个梦想</li>
+                </ul>
+            </td>
+        </tr>
+     </body>

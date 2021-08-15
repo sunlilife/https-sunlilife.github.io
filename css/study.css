@@ -1,0 +1,47 @@
+h1 {
+    color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:48px;
+}
+a {
+    text-decoration: none;
+    width: 100px;
+    height: 200px;
+    color: rgb(83, 24, 83);
+    font-size: 40px;
+}
+
+.body {
+    background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.huabanimg.com%2F972d803895f840c7de35282f809cd70a4694eecd1a2bf-wtOl0E_fw658&refer=http%3A%2F%2Fhbimg.huabanimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1631594976&t=ce3b91c4bbad2823459b1950630d3eca);
+    background-size: 100%,100%;
+}
+.left {
+    position:absolute;
+    left: 0%;
+    right: 60%;
+    background-color: rgb(211, 180, 139,0.1);
+    height: 100%;
+    border-style: groove;
+    border-width: 1px;
+    border-top: 0;
+}
+.mid {
+    position: absolute;
+    left: 40%;
+    right: 30%;
+    background-color: rgba(207, 122, 203, 0.1);
+    height: 100%;
+    border-width: 1px;
+    border-style: groove;
+    border-top: 0;
+}
+.right {
+    position: absolute;
+    left: 70%;
+    right: 0%;
+    background-color: rgb(46, 139, 131,0.1);
+    height: 100%;
+    border-style: groove;
+    border-width: 1px;
+    border-top: 0;
+}
